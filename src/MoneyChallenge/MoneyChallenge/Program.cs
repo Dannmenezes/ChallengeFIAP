@@ -18,6 +18,7 @@ builder.Services.AddDbContext<FBIContext>(options => options.UseOracle(connectio
 
 builder.Services.AddControllers();
 builder.Services.AddTransient<IFBIService, FBIService>();
+builder.Services.AddTransient<IInterpolService, InterpolService>();
 builder.Services.AddHttpClient();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
