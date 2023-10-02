@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\MoneyChallenge",
+    "\\src\\MoneyChallenge\\MoneyChallenge",
+    "\\src\\MoneyChallenge\\MoneyChallenge\\Controllers",
+    "\\src\\MoneyChallenge\\MoneyChallenge\\Services"
+  ],
+  "SelectedNode": "\\src\\MoneyChallenge\\MoneyChallenge\\Program.cs",
+  "PreviewInSolutionExplorer": false
+}
