@@ -25,6 +25,8 @@ namespace ChallengeIdwall.Context
             {
                 modelBuilder.Entity<FBIWantedResponse>()
                     .HasNoKey();
+                modelBuilder.Entity<InterpolWantedResponse>()
+                    .HasNoKey();
             }
 
             //protected override void OnModelCreating(ModelBuilder modelBuilder)
